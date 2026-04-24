@@ -1,1 +1,6 @@
-docs/**/*
+CLAUDE.md
+.claude/
+/docs/plans/
+/docs/prd/
+Source/bin/
+Source/obj/
