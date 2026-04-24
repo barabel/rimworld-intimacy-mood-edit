@@ -58,7 +58,7 @@ namespace IntimacyMoodTuner
       Rect row = listing.GetRect(Text.LineHeight + 4f);
 
       Widgets.Label(row.LeftPart(0.6f), label);
-      Widgets.TextFieldNumeric(row.LeftPart(0.85f).RightPart(0.29f), ref value, ref buffer, -50f, 50f);
+      Widgets.TextFieldNumeric(row.LeftPart(0.82f).RightPart(0.30f), ref value, ref buffer, -50f, 50f);
 
       GUI.color = Color.gray;
       Widgets.Label(row.RightPart(0.15f), $"vanilla: {vanilla}");
