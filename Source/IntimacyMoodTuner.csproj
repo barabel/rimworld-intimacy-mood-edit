@@ -2,7 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <AssemblyName>IntimacyMoodNerf</AssemblyName>
+    <AssemblyName>IntimacyMoodTuner</AssemblyName>
+    <RootNamespace>IntimacyMoodTuner</RootNamespace>
     <OutputPath>../mod/Assemblies/</OutputPath>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>

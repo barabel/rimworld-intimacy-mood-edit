@@ -2,17 +2,17 @@ using RimWorld;
 using UnityEngine;
 using Verse;
 
-namespace IntimacyMoodNerf
+namespace IntimacyMoodTuner
 {
-  public class IntimacyMoodNerfMod : Mod
+  public class IntimacyMoodTunerMod : Mod
   {
-    private readonly IntimacyMoodNerfSettings settings;
+    private readonly IntimacyMoodTunerSettings settings;
 
     private string buf1, buf2, buf3, buf4, buf5;
 
-    public IntimacyMoodNerfMod(ModContentPack content) : base(content)
+    public IntimacyMoodTunerMod(ModContentPack content) : base(content)
     {
-      settings = GetSettings<IntimacyMoodNerfSettings>();
+      settings = GetSettings<IntimacyMoodTunerSettings>();
       LongEventHandler.ExecuteWhenFinished(ApplySettings);
     }
 
@@ -28,7 +28,7 @@ namespace IntimacyMoodNerf
       def.stages[4].baseMoodEffect = settings.stage5;
     }
 
-    public override string SettingsCategory() => "Intimacy Mood Nerf";
+    public override string SettingsCategory() => "Intimacy Mood Tuner";
 
     public override void DoSettingsWindowContents(Rect inRect)
     {

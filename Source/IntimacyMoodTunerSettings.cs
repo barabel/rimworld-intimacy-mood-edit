@@ -1,8 +1,8 @@
 using Verse;
 
-namespace IntimacyMoodNerf
+namespace IntimacyMoodTuner
 {
-  public class IntimacyMoodNerfSettings : ModSettings
+  public class IntimacyMoodTunerSettings : ModSettings
   {
     public float stage1 = -4f;
     public float stage2 = 0f;
