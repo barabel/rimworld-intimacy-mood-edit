@@ -1,6 +1,6 @@
 # Intimacy Mood Tuner
 
-RimWorld мод (C# + XML). Позволяет настроить бонусы настроения каждой стадии потребности Intimacy из мода [Intimacy - A Lovin' Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3010066626).
+RimWorld мод (C# + XML). Позволяет настроить бонусы настроения каждой стадии потребности Intimacy из мода [Intimacy - A Lovin' Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=3498422643).
 
 **Зависимость:** `LovelyDovey.Sex.WithEuterpe`
 
