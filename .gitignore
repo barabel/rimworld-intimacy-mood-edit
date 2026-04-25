@@ -4,4 +4,4 @@ CLAUDE.md
 /docs/prd/
 Source/bin/
 Source/obj/
-Assemblies/IntimacyMoodTuner.deps.json
+mod/Assemblies/IntimacyMoodTuner.deps.json
