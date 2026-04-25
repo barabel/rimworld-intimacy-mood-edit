@@ -3,7 +3,7 @@
 	<name>Intimacy Mood Tuner</name>
 	<author>Barabel</author>
 	<packageId>Barabel.IntimacyMoodTuner</packageId>
-	<description>The mood bonus from intimacy bar is massive — in my playthrough it made the game easy. Tweaking the need decay in options only left pawns with empty bars despite socializing constantly. So I made this mod to let you set each intimacy stage's mood value to whatever feels balanced for your run.</description>
+	<description>The intimacy mood bonus is too strong. It makes the game too easy. Increasing need decay in options just leaves pawns with empty bars. This mod lets you set the mood value for each intimacy stage.</description>
 	<modDependencies>
 		<li>
 			<packageId>LovelyDovey.Sex.WithEuterpe</packageId>
